@@ -9,6 +9,7 @@ body {
 	background-color: burlywood;
 	margin-right: auto;
 	margin-left: auto;
+	padding: 20px;
 }
 .flavor, .dessert {
 	text-align: left;
