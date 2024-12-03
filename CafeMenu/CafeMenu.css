@@ -2,11 +2,25 @@ h1, h2, p {
 	text-align: center;
 }
 body {
-	/* background-color: burlywood; */
+	background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
 }
-#menu {
+.menu {
 	width: 80%;
 	background-color: burlywood;
 	margin-right: auto;
 	margin-left: auto;
 }
+.flavor, .dessert {
+	text-align: left;
+	width: 25%;
+}
+.price {
+	text-align: right;
+	width: 25%;
+}
+
+.item p {
+	display: inline-block;
+}
+
+
