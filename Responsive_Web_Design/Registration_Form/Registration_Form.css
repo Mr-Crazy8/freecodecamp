@@ -28,6 +28,7 @@ form {
 	max-width: 500px;
 	min-width: 300px;
 	width: 60vw;
+	padding-bottom: 2em;
 }
 
 fieldset:last-of-type {
@@ -57,7 +58,21 @@ input, textarea {
 }
 
 intput[type="submit"] {
+	min-width: 300px;
 	width: 60%;
 	display: block;
-	margin: 0 auto;
+	margin: 1em auto;
+	height: 2em;
+	font-size: 1.1rem;
+	background-color: #3b3b4f;
+	border-color: white;
+}
+
+input[type="file"]
+{
+	padding: 1px 2px;
+}
+
+a {
+	color: #dfdfe2;
 }
