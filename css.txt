@@ -1,0 +1,9 @@
+padding: top right bottom left;
+
+padding: 10px           10px;
+          /\              /\
+          ||              ||
+          ||              ||
+          ||              ||
+          top              left
+          bottom            right
